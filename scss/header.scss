@@ -1,0 +1,37 @@
+.header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 74px;
+	&__logo{
+		width: 192px;
+		height: 24px;
+	}
+	&__list{
+		display: flex;
+	}
+	&__link{
+		font-family: Neue Machina;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 14px;
+		color: #0B0B0B;
+		margin: 0px 0px 0px 24px;
+		&:hover{
+			opacity: 0.7;
+		}
+	}
+	&__link-arrow{
+		position: relative;
+		display: inline;
+		img{
+			position: absolute;
+			top: 0;
+			right: -12px;
+		}
+	}
+	&__burger {
+		display: none;
+	}
+}
